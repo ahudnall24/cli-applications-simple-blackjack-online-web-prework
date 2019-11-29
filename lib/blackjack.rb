@@ -116,3 +116,4 @@ describe "#deal_card" do
     expect($stdout).to receive(:puts).with("Game Over")
     end_game
   end
+  
