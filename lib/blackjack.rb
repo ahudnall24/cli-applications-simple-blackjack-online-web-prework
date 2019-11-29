@@ -31,7 +31,8 @@ def hit?
   # code hit? here
 end
 
-def invalid_command(
+def invalid_command(error_ message)
+  puts "None", #{error_message}
   # code invalid_comma)nd here
 end
 
