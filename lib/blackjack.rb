@@ -64,4 +64,16 @@ def run_program
   "runner"
   # runner file
 end
+
+
+
+describe "#welcome" do
+  it "should display message" do
+    expect { Welcome_to_the_Blackjack_Table}.to_not raise_error
+  end
+ 
+  it "prints the value of the cards to the screen" do
+    expect($stdout).to receive(:puts).with("Your cards add up to 8")
+    display_card_total(8)
+  end
     
