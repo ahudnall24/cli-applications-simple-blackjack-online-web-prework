@@ -46,11 +46,12 @@ end
 #####################################################
 
 def runner
+  "welcome"
   "deal_card"
- 
- 
- 
-  "end_game"
+  "display_card_total"
+  "prompt_user"
+  "get_user_input"
+   "end_game"
   "initial_round"
   "hit"
   "invalid_command(error_message)"
