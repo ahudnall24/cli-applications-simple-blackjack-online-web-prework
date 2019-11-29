@@ -77,7 +77,27 @@ describe "#welcome" do
     .welcome
   end
     
-describe "#display_card_total" do
+describe "#deal_card" do
+  it "accepts one argument, generate random number beween 1-11" do
+    expect { deal_card(1,2,3,4,5,6,7,8,9,10,11)}.to_not raise_error
+  end
+ 
+  it "prints the value of the cards to the screen" do
+    expect($stdout).to receive(:puts).with("Your cards are between 1 and 11")
+    deal_card(1,2,3,4,5,6,7,8,9,10,11)
+  end
+  
+  describe "#display_card_total" do
+  it "accepts one argument, the card total" do
+    expect { display_card_total#{card_total }.to_not raise_error
+  end
+ 
+  it "prints the value of the cards to the screen" do
+    expect($stdout).to receive(:puts).with#{card_total}
+    display_card_total#{card_total}
+  end
+  
+  describe "#display_card_total" do
   it "accepts one argument, the card total" do
     expect { display_card_total(7) }.to_not raise_error
   end
