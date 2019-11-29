@@ -4,20 +4,23 @@ def welcome
 end
 
 def deal_card
- puts "deal_card"
+ puts "deal card"
  # code #deal_card here
 end
 
 def display_card_total
-  # code #display_card_total here
+ puts "display card total"
+ # code #display_card_total here
 end
 
 def prompt_user
+  puts "prompt user"
   # code #prompt_user here
 end
 
 def get_user_input
-  # code #get_user_input here
+  puts "get user input"
+  code #get_user_input here
 end
 
 def end_game
@@ -43,6 +46,10 @@ end
 #####################################################
 
 def runner
+  "deal_card"
+ 
+ 
+ 
   "end_game"
   "initial_round"
   "hit"
