@@ -41,7 +41,11 @@ end
 #####################################################
 
 def runner
-  "end_game
+  "end_game"
+  "initial_round"
+  "hit"
+  "invalid_command(error_message)"
+  
   # code runner here
 end
     
