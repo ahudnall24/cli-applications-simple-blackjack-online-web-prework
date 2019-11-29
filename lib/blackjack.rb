@@ -97,12 +97,22 @@ describe "#deal_card" do
     display_card_total#{card_total}
   end
   
-  describe "#display_card_total" do
-  it "accepts one argument, the card total" do
-    expect { display_card_total(7) }.to_not raise_error
+  describe "#prompt_user" do
+  it "accepts one argument, to prompt user" do
+    expect { prompt user}.to_not raise_error
   end
  
-  it "prints the value of the cards to the screen" do
-    expect($stdout).to receive(:puts).with("Your cards add up to 8")
-    display_card_total(8)
+  it "prints to prompts user" do
+    expect($stdout).to receive(:puts).with("Yes or No")
+    prompt_user(answer)
+  end
+  
+  describe "#end_game" do
+  it "accepts one argument, to end the game" do
+    expect { end_game}.to_not raise_error
+  end
+ 
+  it "prints end game to the screen" do
+    expect($stdout).to receive(:puts).with("Game Over")
+    end_game
   end
