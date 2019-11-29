@@ -46,6 +46,12 @@ end
 #####################################################
 
 def runner
+  puts "runner"
+  
+end
+  
+  
+def run_program
   "welcome"
   "deal_card"
   "display_card_total"
@@ -55,7 +61,7 @@ def runner
   "initial_round"
   "hit"
   "invalid_command(error_message)"
-  
-  # code runner here
+  "runner"
+  # runner file
 end
     
