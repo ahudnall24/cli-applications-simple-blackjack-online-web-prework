@@ -19,19 +19,20 @@ def get_user_input
 end
 
 def end_game
-  # code #end_game here
+  puts "end game"
 end
 
 def initial_round
-  # code #initial_round here
+  puts "This is the intitial round"
 end
 
 def hit?
+  puts "Do you want to hit"
   # code hit? here
 end
 
-def invalid_command
-  # code invalid_command here
+def invalid_command(
+  # code invalid_comma)nd here
 end
 
 #####################################################
